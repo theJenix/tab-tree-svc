@@ -7,7 +7,7 @@
                  [hiccup "1.0.5"]
                  [ring-server "0.4.0"]
                  [ring/ring-json "0.4.0"]
-                 [clj-datastore "0.3.6-SNAPSHOT"]
+;                 [clj-datastore "0.3.6-SNAPSHOT"]
                  [cheshire "5.3.1"]
                  [google-apps-clj "0.6.1"]
                  ]

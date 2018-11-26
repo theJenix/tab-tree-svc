@@ -6,8 +6,8 @@
             [hiccup.middleware :refer [wrap-base-url]]
             [compojure.handler :as handler]
             [compojure.route :as route]
-            [clj-datastore.datastore :as d]
-            [clj-datastore.file :refer [local-storage make-file-data-store]]
+ ;           [clj-datastore.datastore :as d]
+;            [clj-datastore.file :refer [local-storage make-file-data-store]]
             [google-apps-clj.credentials :as cred]
             [google-apps-clj.google-drive :as drive]
             
@@ -21,8 +21,8 @@
 ;; 4) Improve change token/incremental updates
 
 (def nodes-filename "nodes")
-(def nodes-keys [:node-id :parent-id :url :title :description :color :other])
-(def nodes (delay (make-file-data-store nodes-keys nodes-filename local-storage)))
+;(def nodes-keys [:node-id :parent-id :url :title :description :color :other])
+;(def nodes (delay (make-file-data-store nodes-keys nodes-filename local-storage)))
 
 (def creds  
   {:client-id     (System/getenv "TAB_TREE_SVC_GOOGLE_CLIENT_ID") 
