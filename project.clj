@@ -1,4 +1,5 @@
 (defproject tab-tree-svc "0.1.0-SNAPSHOT"
+  :min-lein-version "2.7.1"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
   :dependencies [[org.clojure/clojure "1.9.0"]
