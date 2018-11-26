@@ -8,6 +8,7 @@
                  [ring/ring-json "0.4.0"]
                  [clj-datastore "0.3.6-SNAPSHOT"]
                  [cheshire "5.3.1"]
+                 [google-apps-clj "0.6.1"]
                  ]
   :plugins [[lein-ring "0.8.12"]]
   :ring {:handler tab-tree-svc.handler/app
